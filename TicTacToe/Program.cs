@@ -7,7 +7,7 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
-            var boxes = new List<char>() { 'a', 'b', 'O', '0', 'O', '0', 'O', '0', '0' };
+            var boxes = new List<char>();
             var player = 1;
             int boxIndex;
 
@@ -53,7 +53,7 @@ namespace TicTacToe
 
                 if (Game.Result(boxes))
                 {
-                    Console.WriteLine("n\tPlayer {0} WON\n", player);
+                    Console.WriteLine("\n\tPlayer {0} WON\n", player);
                     break;
                 }
 
