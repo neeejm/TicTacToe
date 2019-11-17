@@ -67,6 +67,9 @@ namespace TicTacToe
             {
                 Console.WriteLine("\n\tIts a DRAW\n");
             }
+
+            Console.Write("Press \"Enter\" To exit ...");
+            Console.Read();
         }
     }
 }
