@@ -7,6 +7,7 @@ namespace TicTacToe
     {
         public static byte diagonal = 0;
         public const byte win = 3;
+        public static List<char> side = new List<char>();
         public static bool Result(List<char> boxes)
         {
             //this will check each row of TicTacToe grid
